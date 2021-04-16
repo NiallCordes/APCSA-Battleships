@@ -1,8 +1,6 @@
-import java.util.*;
-
-public class Battleships extends Ships{
-    public Battleships() {
-        length = 4
-        symbol = Node.B
+public class Battleship extends Ships {
+    public Battleship() {
+      length = 4;
+      symbol = Node.B;
     }
-}
+  }
