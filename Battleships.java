@@ -58,6 +58,7 @@ public class Battleships {
 
     System.out.println("Game over!");
     
-
+    // close scanner to prevent resource leak
+    scan.close();
   }
 }
